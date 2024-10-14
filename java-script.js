@@ -36,4 +36,5 @@ document.getElementById("calculate_btn").addEventListener("click", function () {
   let inputValue = document.getElementById("liczba_input").value;
   // Zamień na liczbę
   myFunc(Number(inputValue)); // Przekaż wartość jako liczbę do funkcji
+  document.getElementById("demo").innerHTML = myFunc;
 });
