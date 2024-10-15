@@ -38,3 +38,15 @@ main {
 .normal {
   height: auto;
 }
+
+.start-lesson {
+  color: #d4f5f5;
+}
+
+.lessons {
+  color: #554348;
+}
+
+.summary {
+  color: #93b7be;
+}
