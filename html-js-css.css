@@ -50,3 +50,19 @@ main {
 .summary {
   color: #93b7be;
 }
+
+button {
+  background-color: #1abc9c;
+  border: white;
+  cursor: pointer;
+  padding: 15px;
+  margin: 4px 2px;
+}
+
+button:hover {
+  background-color: #2c3e50;
+}
+
+button:active {
+  background-color: beige;
+}

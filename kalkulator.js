@@ -8,6 +8,16 @@ Add = () => {
   document.getElementById("show").innerHTML = result;
 };
 
+Minus = () => {
+  var x = parseInt(document.getElementById("user_input").value);
+  var y = parseInt(document.getElementById("user_input_2").value);
+  let result;
+
+  result = x - y;
+
+  document.getElementById("show").innerHTML = result;
+};
+
 Multiply = () => {
   var x = parseInt(document.getElementById("user_input").value);
   var y = parseInt(document.getElementById("user_input_2").value);
