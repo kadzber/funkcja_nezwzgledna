@@ -6,6 +6,8 @@ let day_name = Day_list[day];
 const Formated = `${day_name}`;
 let Day_desc;
 
+console.log(Formated);
+
 if (Formated == "Sun") {
   Day_desc = `
     <div class="day-description">
