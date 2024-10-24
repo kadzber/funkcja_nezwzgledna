@@ -1,26 +1,50 @@
-var x = document.getElementById("user_input");
-var y = document.getElementById("user_input_2");
-const plus = document.getElementById("math_operator_plus");
-const minus = document.getElementById("math_operator_minus");
-const divide = document.getElementById("math_operator_divide");
-const times = document.getElementById("math_operator_times");
-const power = document.getElementById("math_operator_power");
+Add = () => {
+  var x = parseInt(document.getElementById("user_input").value);
+  var y = parseInt(document.getElementById("user_input_2").value);
+  let result;
 
-function display() {
-  let var_1 = parseFloat(x.value);
-  let var_2 = parseFloat(y.value);
-  let w;
-  if (math_operator_plus.checked) {
-    w = var_1 + var_2;
-  } else if (math_operator_minus.checked) {
-    w = var_1 - var_2;
-  } else if (math_operator_divide.checked) {
-    w = var_1 / var_2;
-  } else if (math_operator_times.checked) {
-    w = var_1 * var_2;
-  } else if (math_operator_power.checked) {
-    w = var_1 * var_1;
+  result = x + y;
+
+  document.getElementById("show").innerHTML = result;
+};
+
+Multiply = () => {
+  var x = parseInt(document.getElementById("user_input").value);
+  var y = parseInt(document.getElementById("user_input_2").value);
+  let result;
+
+  result = x * y;
+
+  document.getElementById("show").innerHTML = result;
+};
+
+divide = () => {
+  var x = parseInt(document.getElementById("user_input").value);
+  var y = parseInt(document.getElementById("user_input_2").value);
+  let result;
+
+  result = x / y;
+  document.getElementById("show").innerHTML = result;
+};
+
+power = () => {
+  var x = parseInt(document.getElementById("user_input").value);
+  var y = parseInt(document.getElementById("user_input_2").value);
+  let result;
+
+  result = x * x || y * y;
+  document.getElementById("show").innerHTML = result;
+};
+
+absolute_value = () => {
+  var x = parseInt(document.getElementById("user_input").value);
+  var y = parseInt(document.getElementById("user_input_2").value);
+  let result;
+
+  if (x || y < 0) {
+    result = x * -1 || y * -1;
+  } else {
+    result = "number is positive";
   }
-
-  document.getElementById("show").innerHTML = w;
-}
+  document.getElementById("show").innerHTML = result;
+};
