@@ -51,7 +51,7 @@ absolute_value = () => {
   var y = parseInt(document.getElementById("user_input_2").value);
   let result;
 
-  if (x || y < 0) {
+  if (x < 0 || y < 0) {
     result = x * -1 || y * -1;
   } else {
     result = "number is positive";
