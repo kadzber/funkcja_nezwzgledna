@@ -99,10 +99,16 @@ if (Formated == "Sun") {
       </div>
       <div class="lessons">
         <ul>
+          <li>Podstawy programowania i algorytmika</li>
+          
           <li>Biologia</li>
-          <li>Wychowanie fizyczne</li>
-          <li>Język angielski</li>
-          <li>Informatyka</li>
+          <li>Język polski</li>
+          <li>Zajęcia z wychowawcą</li>
+          <li>Pracownia projektowania i administrowania bazami</li>
+          <li>Pracownia projektowania i administrowania bazami</li>
+          <li>Matematyka</li>
+          <li>Matematyka</li>
+         
         </ul>
       </div>
       <div class="summary">
