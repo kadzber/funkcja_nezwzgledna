@@ -18,6 +18,6 @@ async function Fetch_data() {
 
     const all = temperature + "<br>" + wind + "<br>" + description;
 
-    document.getElementById("show").innerHTML = all;
+    document.getElementById("show_resoult").innerHTML = all;
   } catch (error) {}
 }
